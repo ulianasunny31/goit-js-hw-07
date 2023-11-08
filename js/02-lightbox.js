@@ -18,6 +18,6 @@ galleryList.innerHTML = listMarkup;
 
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
-  captionPosition: "top",
+  captionPosition: "bottom",
   captionDelay: 250,
 });
